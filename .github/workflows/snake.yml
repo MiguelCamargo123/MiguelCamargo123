@@ -2,6 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
+    # executa a cada 12 horas
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
@@ -14,9 +15,14 @@ jobs:
 
       - uses: Platane/snk@v3
         with:
-          github_user_name: MiguelCamargo123
+          # nome do usuário do github
+          github_user_name: ${{ github.repository_owner }}
+          
+          # lista de arquivos para gerar. 
+          # AQUI ESTAVA FALTANDO A VERSÃO DARK
           outputs: |
             dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
