@@ -39,7 +39,7 @@
 | 📚 [Books](https://github.com/MiguelCamargo123/Books) | CLI Library Management System with OOP, JSON persistence and lending rules | Python |
 | 🏦 [bankAccount](https://github.com/MiguelCamargo123/bankAccount) | Bank account simulator with encapsulation, transaction history and balance validation | Python |
 | 🧠 [OBMEP Quiz](#) | Quiz app with OBMEP questions, random selection by difficulty level *(in progress)* | Python |
-| 🔐 [password-generator](https://github.com/MiguelCamargo123/password-generator) | Password generator practicing logic and randomization | Python |
+| 🌐 [LandingPage-ToDoList](https://github.com/MiguelCamargo123/LandingPage-ToDoList) | Simple landing page for a to-do list application built with HTML and CSS | HTML/CSS |
 
 ---
 
